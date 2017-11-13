@@ -105,24 +105,26 @@ PAGE: PORTFOLIO
 ************/
 
 #gallery{
+  background-color: #c7ccdfbe;
   margin: 0;
-  padding: 0;
   list-style: none;
+  padding: 0;
 }
 
 #gallery li {
   float: left;
   width: 45%;
   margin: 2.5%;
-  background-color: #141d42be;
+  background-color: #c7ccdfbe;
+  opacity: 0.8;
   color: #24597c;
 }
 
 #gallery li a p {
   margin: 0;
   padding: 5%;
-  font-size: 0.75em;
-  color: #24597c;
+  font-size: 1.25em;
+  color: #dabebf;
 }
 
 
@@ -174,18 +176,24 @@ COLORS
 /* site body */
 body {
   background-color: #fff;
-  color: #999;
+  background: url("../img/sandiego.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: cover;
+	box-sizing: border-box;
+  color: #fff;
 }
 
 /* green header */
 header{
-  background: #6ab47b;
-  border-color: #599a68;
+  background: #724043;
+  border-color: #5f3537;
 }
 
 /* nav background on mobile */
 nav{
-  background: #599a68;
+  background: #5f3537;
 }
 
 /* logo text */
@@ -195,7 +203,7 @@ h1,h2 {
 
 /* links */
 a {
-  color: #61b47b;
+  color: #dabebf;
 }
 
 /* nav link */
@@ -205,5 +213,5 @@ nav a, nav a:visited {
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #32673f;
+  color: #b67c7f;;
 }
